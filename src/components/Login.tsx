@@ -8,18 +8,6 @@ import type { ConfirmationResult } from 'firebase/auth'
 import PhoneInput from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
 
-// const BANGLADESHI_PHONE_NUMBER_REGEX = /^(?:\+?88)?01\d{9}$/;
-
-// const formatPhoneNumber = (phoneNumber: string): string => {
-//   // * converts +8801712345678 or 01712-345678 -> +880 1712-345678 format
-//   const prefix = phoneNumber.startsWith("0") ? "+88" : "";
-//   const idealNumberFormat = prefix + phoneNumber.replace(/[^0-9]/g, "");
-//   const section1 = idealNumberFormat.slice(0, 4);
-//   const section2 = idealNumberFormat.slice(4, 7);
-//   const section3 = idealNumberFormat.slice(7);
-
-//   return `${section1} ${section2}-${section3}`;
-// };
 
 export function Login() {
   const [phoneNumber, setPhoneNumber] = useState('')

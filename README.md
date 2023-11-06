@@ -27,3 +27,27 @@ If you are developing a production application, we recommend updating the config
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 **** just test
+
+#### Install dependencies
+
+```
+pnpm install
+```
+
+#### Run development server
+
+```
+pnpm dev
+```
+
+#### Build for production
+
+```
+pnpm build
+```
+
+#### Run production server
+
+```
+pnpm start
+```
